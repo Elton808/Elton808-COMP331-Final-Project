@@ -1,9 +1,9 @@
 # Elton808-COMP331-Final-Project
-# Data Warehousing Quality Analysis – E-Commerce Retail Dataset
+# Data Warehousing Quality Analysis – e-Commerce Retail Dataset
 
-## 📌 Project Overview
-This project analyzes data quality issues in a real-world **e-commerce transactions dataset**.  
-The goal is to apply data warehousing concepts (Weeks 10–11), including:
+##Project Overview
+This project analyzes data quality issues in a real world e-commerce transactions dataset.  
+The goal is to apply data warehousing concepts, including:
 
 - ETL quality assessment  
 - Star schema readiness  
@@ -12,14 +12,14 @@ The goal is to apply data warehousing concepts (Weeks 10–11), including:
 - Data quality dimensions (completeness, validity, consistency)
 
 This repository contains:
-- 🔍 Data profiling scripts  
-- 🧹 Cleaning and validation transformations  
-- 📊 Summary tables & visualizations  
-- 📄 Final written analysis for the course report  
+- Data profiling scripts  
+- Cleaning and validation transformations  
+- Summary tables & visualizations  
+- Final written analysis for the course report  
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 The dataset contains **541,909 rows** of invoice-level sales transactions, with fields:
 
 | Column       | Description |
@@ -33,12 +33,12 @@ The dataset contains **541,909 rows** of invoice-level sales transactions, with 
 | CustomerID   | Unique customer identifier (many missing) |
 | Country      | Customer location |
 
-The dataset is stored as **data.csv** in this repository (if file size permits) or can be downloaded from the original source.
+The dataset is stored as data.csv in this repository.
 
 ---
 
-## 🎯 Objectives
-### 1. Perform Data Quality Analysis
+## Objectives
+1. Perform Data Quality Analysis
 Using course concepts from Weeks 10–11:
 - **Completeness** – identify null values, missing customers, missing descriptions  
 - **Validity** – detect negative quantities, zero or negative prices, invalid dates  
@@ -46,7 +46,7 @@ Using course concepts from Weeks 10–11:
 - **ETL readiness** – identify issues affecting Fact/Dimension tables  
 - **Referential integrity** – detect missing keys for DimCustomer or DimProduct  
 
-### 2. Create a Warehouse-Aligned Cleaning Strategy
+2. Create a Warehouse-Aligned Cleaning Strategy
 - Handling returns (negative quantities)
 - Rejecting invalid values
 - Mapping missing customers to “Unknown Customer”
@@ -55,7 +55,7 @@ Using course concepts from Weeks 10–11:
 
 ---
 
-## 🏗️ Star Schema Context
+## Star Schema Context
 This dataset is suitable for a retail star schema:
 
 ### **FactSales**
@@ -76,7 +76,6 @@ This dataset is suitable for a retail star schema:
 
 ---
 
-## 📁 Repository Structure
 
 
 
