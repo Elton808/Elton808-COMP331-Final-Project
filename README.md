@@ -1,7 +1,6 @@
 # Elton808-COMP331-Final-Project
-# Data Warehousing Quality Analysis – e-Commerce Retail Dataset
+# Building Trustworthy Data: ETL Quality and Data Cleaning for E-Commerce Transactions
 
-##Project Overview
 This project analyzes data quality issues in a real world e-commerce transactions dataset.  
 The goal is to apply data warehousing concepts, including:
 
@@ -76,6 +75,33 @@ This dataset is suitable for a retail star schema:
 
 ---
 
+**Note: All steps below should be completed inside your project folder located on your Desktop.
+Be sure to navigate to the project directory in Terminal before running any commands.**
+
+Set Up Python Env & Run Scripts (macOS + BBEdit)
+
+Step 1: Open Terminal.
+
+Step 2: Navigate to the file dw-data-quality-project saved to your desktop
+e.g('/Users/eltonbaretto/Documents/COMP 331/dw-data-quality-project')
+
+Step 3: Create a virtual environment: 
+python3 -m venv venv
+
+Step 4: Activate it: 
+source venv/bin/activate
+
+Step 5: Install requirements: 
+pip install -r requirements.txt
+
+Step 5.1: Run Profiling: 
+python3 scripts/profiling.py
+
+Step 5.2: Run Cleaning: 
+python3 scripts/cleaning.py
+
+Step 6: Create a Simple Jupyter Notebook for GitHub & screenshots: 
+jupyter notebook
 
 
 
