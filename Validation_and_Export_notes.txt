@@ -1,5 +1,0 @@
-# 03 - Validation & Export
-
-from scripts import validation
-
-validation.validate_fact_sales("../results/fact_sales_ready.csv")
