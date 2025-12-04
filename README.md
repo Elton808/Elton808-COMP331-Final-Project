@@ -110,8 +110,8 @@ dw-data-quality-project/
 ├── requirements.txt
 ├── .gitignore
 ├── data.csv
-├── scripts/
-├── results/
+├── scripts/ cleaning.py/profiling.py/cleaning.py
+├── results/ 
 ├── notebooks/
 └── report/
 
