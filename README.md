@@ -103,5 +103,15 @@ python3 scripts/cleaning.py
 Step 6: Create a Simple Jupyter Notebook for GitHub & screenshots: 
 jupyter notebook
 
+===============
 
+dw-data-quality-project/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── data.csv
+├── scripts/
+├── results/
+├── notebooks/
+└── report/
 
